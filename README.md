@@ -1,6 +1,6 @@
 # InterBall
 
-InterBall is an iOS-focused Flutter prototype for documenting interval-based activities. It connects each timed segment with a label, notes, photos, and videos so the result is more useful than a list of timestamps.
+InterBall is an iOS and Android focused Flutter prototype for documenting interval-based activities. It connects each timed segment with a label, notes, photos, and videos so the result is more useful than a list of timestamps.
 
 > **Project status:** Private-source prototype. Revision `da96781` passes static analysis and two automated smoke tests, launches successfully on a physical iPhone after its `UIScene` migration, and completed the scripted device workflow twice. This repository is intended as a public, source-free project showcase.
 
