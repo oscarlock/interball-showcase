@@ -117,11 +117,6 @@ The public demo follows this validated path:
 | Navigation | Branded five-tab shell; Stopwatch and History are active | Home, Account, and Settings are placeholders |
 | Image annotation | Visual overlay preview only | Not demo-ready |
 
-## Next milestones
-
-1. Review the source-free showcase and approved media in a logged-out browser.
-2. Publish the showcase only after explicit approval.
-3. Continue architecture, lifecycle, and permission hardening in the private source repository.
 
 ## Documentation
 
