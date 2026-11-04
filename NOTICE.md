@@ -1,8 +1,8 @@
 # Copyright and Source Notice
 
-Copyright (c) 2024-2026 Oscar Lock. All rights reserved.
+Copyright (c) 2024–2026 Oscar Lock. All rights reserved.
 
-InterBall is independently developed software. This public repository contains product documentation and may later contain selected screenshots or demonstration media.
+InterBall is independently developed software. This showcase repository contains product documentation and selected demonstration media.
 
 The application source code, development branches, build configuration, private issue history, and private commit history are maintained separately and are not distributed through this repository.
 

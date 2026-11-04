@@ -2,53 +2,39 @@
 
 ## Purpose
 
-InterBall is being developed to connect interval timing with the information produced during a training session. Instead of treating a lap as only a timestamp, the application treats it as a record that can include an exercise name, written notes, photos, and videos.
+InterBall connects interval timing with the context produced during an activity. Instead of treating an interval as only a timestamp, the application treats it as a record that can include a label, notes, photos, and videos.
 
-The goal is to make a workout easier to document while it is happening and easier to review afterward.
+The goal is to make a session easier to document while it is happening and easier to categorize and review afterward.
 
-## Current user flow
+Interval training is the initial product wedge and the focus of the validated prototype. The underlying model can also represent activities such as timed study problems, practice drills, experiments, rehabilitation exercises, or focused work blocks. The current interface retains fitness-oriented terminology while that broader categorization model is developed.
 
-1. The user opens the active stopwatch experience.
-2. The stopwatch can be started, paused, reset, or divided into laps.
-3. Each lap receives its own elapsed time.
-4. A lap can be assigned an exercise name and notes.
-5. Photos or videos can be captured and attached to that lap.
-6. Attached media can be reviewed in a swipeable gallery.
-7. Media can be reordered or removed, and images can receive text annotations.
-8. Session state is saved locally for later restoration.
+## Validated workflow
+
+1. Start the stopwatch and divide an activity into laps.
+2. Add an interval label and notes to each lap.
+3. Capture or select photos and videos and associate them with a lap.
+4. Reorder and review media without leaving the session context.
+5. Stop the timer and complete the session with a title, notes, and tags.
+6. Save the workout and review its chronological lap history.
 
 ## Product principles
 
 ### Context belongs with time
 
-Timing information becomes more useful when it remains connected to the exercise, observation, or media that produced it.
+Timing becomes more useful when it stays connected to the exercise, observation, or media that produced it.
 
 ### Capture should remain inside the session
 
-The media workflow is designed to reduce the need to leave the training context, use a separate camera workflow, and manually reconstruct which media belongs to which interval.
+InterBall reduces the need to leave the active session, use a separate capture workflow, and later reconstruct which context belonged to which interval.
 
 ### Review should preserve chronology
 
-Lap records provide a chronological structure for reviewing a session rather than presenting media as an unrelated collection.
+Laps provide a natural structure for reviewing a session rather than presenting notes and media as unrelated collections.
 
-### Development claims should remain verifiable
+### Claims should remain verifiable
 
-This showcase distinguishes between implemented prototype behavior and work that remains in progress. It does not represent InterBall as an App Store release or finished commercial product.
+This showcase distinguishes validated prototype behavior from planned work. It does not represent InterBall as a released or production-ready application.
 
-## Current scope
+## Current boundaries
 
-The active prototype includes the core stopwatch and lap model, locally persisted lap metadata, camera-based media capture, local media storage, thumbnail generation, media ordering, image annotation, gallery review, and video playback controls.
-
-## Work remaining
-
-- Complete the intended navigation and primary application entry flow
-- Refine the product hierarchy and visual presentation
-- Decompose large interface components into smaller units
-- Expand automated testing and physical-device validation
-- Improve permission, empty, failure, and state-recovery behavior
-- Prepare screenshots, demonstration media, privacy information, and release materials
-- Complete App Store release preparation
-
-## Availability
-
-InterBall is currently an independently developed active prototype. Its source code is private. This repository is limited to public product and engineering documentation.
+Home, Account, and Settings remain placeholders. Generalized category terminology, export/share workflows, image annotation, Apple Watch functionality, production-grade synchronization, and App Store preparation are outside the demonstrated scope.
